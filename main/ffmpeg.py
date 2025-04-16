@@ -320,16 +320,16 @@ async def get_and_upload_mediainfo(bot, output_file, media):
     media_info_html = get_mediainfo(output_file)
 
     media_info_html = (
-        f"<strong>SUNRISES 24 BOT UPDATES</strong><br>"
+        f"<strong>RM Mirror Leech</strong><br>"
         f"<strong>MediaInfo X</strong><br>"
         f"{media_info_html}"
-        f"<p>Rights Designed By Sᴜɴʀɪsᴇs Hᴀʀsʜᴀ 𝟸𝟺 🇮🇳 ᵀᴱᴸ</p>"
+        f"<p>Rights Designed By Rahat</p>"
     )
 
     response = telegraph.post(
         title="MediaInfo",
-        author="SUNRISES 24 BOT UPDATES",
-        author_url="https://t.me/Sunrises24BotUpdates",
+        author="RM Mirror Leech",
+        author_url="https://t.me/MLTBRM",
         text=media_info_html
     )
     link = f"https://graph.org/{response['path']}"
